@@ -4,8 +4,8 @@
 
 <img src="ilus-code.svg" min-width="300px" max-width="300px" width="300px" align="right" alt="logo iuricode">
 <p align="left"> 
-> **"A verdadeira motivação vem de realização, desenvolvimento pessoal, satisfação no trabalho e reconhecimento."<br>**
-> - Frederick Herzberg
+**"A verdadeira motivação vem de realização, desenvolvimento pessoal, satisfação no trabalho e reconhecimento."<br>**
+- Frederick Herzberg
 </p>
 
 ## <img src="https://cdn-icons-png.flaticon.com/512/1752/1752919.png" width="30px;" /> Sobre
