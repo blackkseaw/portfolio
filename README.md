@@ -2,13 +2,8 @@
 
 # <img src="https://cdn-icons-png.flaticon.com/512/1752/1752935.png" width="40px;" /> Portfólio
 
-[Linkedin1]: https://www.linkedin.com/in/laura-ferrari-6a25b220b/
-[Linkedin2]: https://www.linkedin.com/in/marcia-eduarda-ravadelli-38a5991b7/
-[Linkedin3]: https://www.linkedin.com/in/alice-salete-bredow-2b7ba81b4/
-[Linkedin4]: https://www.linkedin.com/in/kauan-z-fernandes-8a8620210/
-
-> **Quer dar uma olhada no estado atual do app? O link do apk para instalação em Android se encontra no final da página em conjunto com a nossa pesquisa de satisfação.**
-> Aplicativo de auxílio educacional para crianças com TEA (Transtorno do Aspectro Autista) desenvolvido pela 5P. <br>
+> **A verdadeira motivação vem de realização, desenvolvimento pessoal, satisfação no trabalho e reconhecimento..**
+> Frederick Herzberg
 
 ## <img src="https://cdn-icons-png.flaticon.com/512/1752/1752919.png" width="30px;" /> Sobre
 
