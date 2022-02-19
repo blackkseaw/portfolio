@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Russo+One&display=swap');
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    text-decoration: none;
+
+    /* font-family: 'Russo One', sans-serif; */
+    /* font-family: 'Montserrat', sans-serif;
+    font-family: 'Russo One', sans-serif; */
+}
+
+/* 
+
+ { #665c92 };
+ { #7e73ab };
+ { #968bc4 };
+ { #aea2dd };
+ { #c6b9f6 }; 
+ { #f5eef2 };*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #665c92;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+body::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+}
+  
+body::-webkit-scrollbar-track {
+    background: #3c365a;
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: #665c92;
+    border-radius: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 10px 120px;
+    align-items: center;
+    border-bottom: px solid #DDDDDD;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links a {
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 600;
+    color: black;
+}
+
+.nav-links a:hover {
+    color: #665c92;
+}
+
+.nav-links a:last-child {
+    margin-right: 0;
+}
+
+.icon {
+    display: flex;
+}
+
+.icon h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.icon a:hover {
+    color: #665c92;
+}
+
+.icon img {
+    width: 30px;
+    margin: 0 12px 0 0;
+}
+
+.content {
+    color: rgb(63, 63, 63);
+    font-family: 'Russo One', sans-serif;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+    
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.content img {
+    width: 400px;
+}
+
+.shadow-img{
+    
+  width: 150px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.content-text {
+}
+
+.anim1 {
+    letter-spacing: 7px;
+    font-size: 60px;
+
+    
+    animation-timing-function: steps(3s, end);
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .10em solid transparent; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+    typing 2.5s steps(40, end),
+    blink-caret .75s step-end 3 ;
+}
+
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #665c92; }
+  }
+
+  .anim2 {
+    letter-spacing: 7px;
+    font-size: 60px;
+
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .10em solid transparent; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    
+    animation:
+    0.1s fadeIn,
+    typing2 2.5s steps(40, end),
+    blink-caret2 .75s step-end infinite;
+    
+    animation-fill-mode: forwards;
+    
+    visibility: hidden;
+    animation-delay: 2.5s;
+  }
+
+
+@keyframes fadeIn {
+    99% {
+      visibility: hidden;
+    }
+    100% {
+      visibility: visible;
+    }
+  }
+
+@keyframes typing2 {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret2 {
+    from, to { border-color: transparent }
+    50% { border-color: #665c92; }
+  }
+
+.container {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    padding-top: 10px;
+    background-color: #f5eef2;
+    color: #c6b9f6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+div.body-content{
+    /** Altura do rodapé tem que ser igual a isso aqui e vice-versa **/
+  padding-bottom: 80px;
+  }
+  footer{
+      
+    text-decoration: none;
+    align-items: center;
+    justify-content: space-between;
+    background: #f5eef2;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+footer h2 {
+    font-size: 14px;
+    font-weight: 600;
+    color: #72727E;
+}
+
+footer img{
+    
+    text-decoration: none;
+    align-items: center;
+    height: 30px;
+    margin: 10px;
+}
+
+.about{
+    background-color: #665c92;
+    color: rgb(63, 63, 63);
+    font-family: 'Russo One', sans-serif;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.about-text {
+
+}
+
+.about-text p{
+    width: 60px;
+}
