@@ -2,7 +2,7 @@
 
 # <img src="https://cdn-icons-png.flaticon.com/512/1752/1752935.png" width="40px;" /> Portfólio
 
-<img src="ilus-code.svg" min-width="300px" max-width="300px" width="300px" align="right" alt="logo iuricode">
+<img src="https://i.pinimg.com/originals/bf/be/bf/bfbebfbec87152e6032cdb24caf8d60e.gif" min-width="300px" max-width="300px" width="300px" align="right" alt="gif">
 <p align="left"> 
 **"A verdadeira motivação vem de realização, desenvolvimento pessoal, satisfação no trabalho e reconhecimento."<br>**
 - Frederick Herzberg
