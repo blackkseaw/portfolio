@@ -2,7 +2,7 @@
 
 # <img src="https://cdn-icons-png.flaticon.com/512/1752/1752935.png" width="40px;" /> Portfólio
 
-> **A verdadeira motivação vem de realização, desenvolvimento pessoal, satisfação no trabalho e reconhecimento..**
+> **A verdadeira motivação vem de realização, desenvolvimento pessoal, satisfação no trabalho e reconhecimento.<br>**
 > Frederick Herzberg
 
 ## <img src="https://cdn-icons-png.flaticon.com/512/1752/1752919.png" width="30px;" /> Sobre
