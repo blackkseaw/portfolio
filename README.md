@@ -1,34 +1,14 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# <img src="https://cdn-icons-png.flaticon.com/512/1752/1752935.png" width="40px;" /> Portfólio
 
-## Getting Started
+<img src="https://i.pinimg.com/originals/bf/be/bf/bfbebfbec87152e6032cdb24caf8d60e.gif" min-width="300px" max-width="300px" width="300px" align="right" alt="gif">
+<p align="left"> 
+<strong>"A verdadeira motivação vem de realização, desenvolvimento pessoal, satisfação no trabalho e reconhecimento."<strong><br>
+╼ Frederick Herzberg
+</p>
 
-First, run the development server:
+## <img src="https://cdn-icons-png.flaticon.com/512/1752/1752919.png" width="40px;" /> Sobre
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Nosso aplicativo consiste em um conjunto de jogos educacionais simples para crianças com TEA (Transtorno do Espectro Autista), onde ajudarão no desenvolvimento da criança, promovendo o aumento do raciocínio e auxílio no processo de alfabetização. Crianças com TEA possuem dificuldade comunicativa e o processo de aprendizagem é diferente, portanto é importante darmos a devida atenção para que ela se desenvolva corretamente. Existem diversos tipos de autismo: os que pensam e se comunicam por imagens e gostam de praticar atividades manuais, como pintar, costurar e cozinhar; os que pensam e se comunicam por palavras e fatos e gostam de decorar trechos de livros e diálogos de filmes, com facilidade e os que pensam e se comunicam por padrões e gostam de lego e matemática. Nosso aplicativo ajudará a identificar qual dos tipos de espectro autista citados acima a criança possui, além de fornecer as ferramentas necessárias para que ela cresça adequadamente.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+> #### Switch to english: <kbd>[<img title="English" alt="English" src="flags/eua.png" width="22">](translation/english/README.en.md)</kbd>
