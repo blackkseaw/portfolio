@@ -48,7 +48,7 @@ body::-webkit-scrollbar-thumb {
 
 
 nav {
-    
+    z-index: 2;
     background-color: #f5eef2;
     position: fixed;
     display: flex;
@@ -123,6 +123,7 @@ nav {
 
 .content img {
     width: 400px;
+    z-index: 1;
 }
 
 .shadow-img{
@@ -217,10 +218,7 @@ nav {
     font-family: 'Montserrat', sans-serif;
 }
 
-.nav {
-    padding: 10px;
-    position: fixed;
-}
+
 
 
 div.body-content{
@@ -260,15 +258,18 @@ footer img{
 }
 
 .about{
-    padding-right: 150px;
-    padding-left: 150px;
     background-color: #665c92;
     color: rgb(245, 245, 245);
+    
     display: flex;
-    justify-content: space-between;
-    padding-top: 80px;
+    align-items: center;
+    justify-content: center;
+    
+    /* padding-top: 80px;
     padding-bottom: 100px;
-   
+    padding-right: 150px;
+    padding-left: 150px; */
+
     display: flex;
     flex-direction: column
     ;
@@ -335,6 +336,7 @@ button.curriculo {
     color: #222;
     background-color: #c6b9f6;
     margin: 22px 10px 0 0;
+    margin-bottom: 30px;
 }
 
 button.curriculo:hover {
@@ -360,4 +362,305 @@ button.curriculo:hover {
 .not-found img{
     padding-top: 50px;
   width: 300px;
+}
+
+@media only screen and (min-width: 1050px) and (max-width: 1169px) {
+    #about {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 120px;
+    }
+
+    #about p {
+        margin: 0 50px 0 50px;
+        text-align: center;
+    }
+
+    .content
+
+    .content img {
+        margin-right: 120px;
+    }
+    
+    .content-text {
+        margin: 150px 120px;
+    }
+}
+
+@media only screen and (min-width: 866px) and (max-width: 1050px) {
+    .content img {
+        width: 225px;
+        height: 225px;
+        border-radius: 100%;
+        margin-right: 100px;
+    }
+
+    .side{
+        padding-right: 20px;
+        padding-left: 20px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .content-text {
+        margin: 100px 100px;
+    }
+
+    .content-text h1 {
+        font-size: 40px;
+    }
+
+    button {
+        padding: 10px 20px;
+    }
+
+    #about {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 120px;
+    }
+
+    #about p {
+        margin: 0 50px 0 50px;
+        text-align: center;
+    }
+
+    h1.subtitle {
+        text-align: center;
+        margin: 100px 0 20px 0;
+        font-size: 30px;
+    }
+
+    #projects {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projects-cards-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projects-cards {
+        background-color: #181425;
+        margin: 0 0 20px 0;
+        width: 90%;
+        text-align: start;
+    }
+
+    .projects-cards:first-child {
+        margin-left: 0px;
+    }
+    
+    .projects-cards:last-child {
+        margin-right: 0px;
+    }
+
+    .projects-cards h1 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 780px) and (max-width: 865px) {
+    .content img {
+        width: 225px;
+        height: 225px;
+        border-radius: 100%;
+        margin-right: 80px;
+    }
+
+    .side{
+        padding-right: 20px;
+        padding-left: 20px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+    
+    .content-text {
+        margin: 100px 80px;
+    }
+
+    .content-text h1 {
+        font-size: 40px;
+    }
+
+    button {
+        padding: 10px 20px;
+    }
+
+    #about {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 120px;
+    }
+
+    #about p {
+        margin: 0 50px 0 50px;
+        text-align: center;
+    }
+
+    h1.subtitle {
+        text-align: center;
+        margin: 100px 0 20px 0;
+        font-size: 30px;
+    }
+
+    #projects {
+        
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projects-cards-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projects-cards {
+        background-color: #181425;
+        margin: 0 0 20px 0;
+        width: 90%;
+        text-align: start;
+    }
+
+    .projects-cards:first-child {
+        margin-left: 0px;
+    }
+    
+    .projects-cards:last-child {
+        margin-right: 0px;
+    }
+
+    .projects-cards h1 {
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (min-width: 240px) and (max-width: 779px) {
+    nav {
+        display: none;
+        padding: 0px;
+    }
+
+    .side{
+        padding-right: 20px;
+        padding-left: 20px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+    }
+
+    .content img {
+        width: 200px;
+        align-items: center;
+        justify-content: center;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .content-text {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .content-text h1 {
+        font-size: 30px;
+    }
+
+    #about {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #about p {
+        text-align: center;
+    }
+
+    #about img{
+        display: none;
+    }
+
+    #projects {
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+
+    .projects-cards-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projects-cards {
+        background-color: #181425;
+        margin: 0 0 20px 0;
+        width: 90%;
+        text-align: start;
+    }
+
+    .projects-cards:first-child {
+        margin-left: 0px;
+    }
+    
+    .projects-cards:last-child {
+        margin-right: 0px;
+    }
+
+    #habilities {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .habilities-cards-container {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .habilities-cards {
+        display: flex;
+        background-color: #181425;
+        margin: 0 0 20px 0;
+        width: 50%;
+    }
+
+    .habilities-cards:first-child {
+        margin-left: 0px;
+    }
+    
+    .habilities-cards:last-child {
+        margin-right: 0px;
+    }
+
+    .habilities-cards h1 {
+        font-size: 20px;
+    }
+
+    footer {
+        flex-direction: column;
+        margin: 0 50px 20px 50px;
+        padding: 20px 20px 0 20px;
+        align-items: center;
+    }
+
+    footer img {
+        width: 20px;
+        margin-left: 10px;
+    }
 }
