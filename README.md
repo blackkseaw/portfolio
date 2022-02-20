@@ -1,4 +1,4 @@
-<!-- > #### Switch to english: <kbd>[<img title="English" alt="English" src="flags/united-states.png" width="22">](translation/english/README.en.md)</kbd> -->
+> #### Switch to english: <kbd>[<img title="English" alt="English" src="flags/united-states.png" width="22">](README-EN.md)</kbd>
 
 # <img src="https://cdn-icons-png.flaticon.com/512/1752/1752935.png" width="40px;" /> Portfólio
 
