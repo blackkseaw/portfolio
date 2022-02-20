@@ -265,10 +265,12 @@ footer img{
     align-items: center;
     justify-content: center;
     
-    /* padding-top: 80px;
-    padding-bottom: 100px;
-    padding-right: 150px;
-    padding-left: 150px; */
+    width: 100%;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 
     display: flex;
     flex-direction: column
@@ -345,6 +347,8 @@ button.curriculo:hover {
 }
 
 .not-found{
+    font-family: 'Russo One', sans-serif;
+    font-weight: lighter;
     height: 550px;
     padding: 50px;
     background-color: #968bc4;
@@ -352,11 +356,19 @@ button.curriculo:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    color: #3c365a;
 }
 
-.not-found h1{
-    color: #3c365a;
-    font-size: 30px;
+.sumir {
+    display: none;
+    padding: 0px;
+    font-size: 10px;
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .not-found img{
@@ -371,20 +383,20 @@ button.curriculo:hover {
         padding-bottom: 120px;
     }
 
-    #about p {
-        margin: 0 50px 0 50px;
-        text-align: center;
+    .sumir {
+        display: none;
+        padding: 0px;
     }
 
-    .content
+    .not-found h1{
+        color: #3c365a;
+        font-size: 30px;
+    }
 
     .content img {
         margin-right: 120px;
     }
     
-    .content-text {
-        margin: 150px 120px;
-    }
 }
 
 @media only screen and (min-width: 866px) and (max-width: 1050px) {
@@ -393,6 +405,16 @@ button.curriculo:hover {
         height: 225px;
         border-radius: 100%;
         margin-right: 100px;
+    }
+
+    .sumir {
+        display: none;
+        padding: 0px;
+    }
+
+    #not-found h1{
+        color: #3c365a;
+        font-size: 30px;
     }
 
     .side{
@@ -427,9 +449,7 @@ button.curriculo:hover {
         text-align: center;
     }
 
-    h1.subtitle {
-        text-align: center;
-        margin: 100px 0 20px 0;
+    #about h1{
         font-size: 30px;
     }
 
@@ -470,6 +490,20 @@ button.curriculo:hover {
         height: 225px;
         border-radius: 100%;
         margin-right: 80px;
+    }
+
+    .sumir {
+        display: contents;
+        padding: 0px;
+    }
+
+
+    #about h1{
+        font-size: 30px;
+    }
+
+    .not-found h1{
+        font-size: 30px;
     }
 
     .side{
@@ -549,6 +583,37 @@ button.curriculo:hover {
         padding: 0px;
     }
 
+    .sumir {
+        display: contents;
+        padding: 0px;
+    }
+
+    #about h1{
+        font-size: 30px;
+    }
+
+    .not-found {
+        display: flex;
+        
+        align-items: center;
+        justify-content: center;
+        justify-self: center;
+        align-self: center;
+    }
+
+    .not-found h1{
+        font-size: 20px;
+    }
+
+    .not-found img{
+
+        width: 200px;
+        align-items: center;
+        justify-content: center;
+        justify-self: center;
+        align-self: center;
+    }
+
     .side{
         padding-right: 20px;
         padding-left: 20px;
@@ -592,8 +657,8 @@ button.curriculo:hover {
         text-align: center;
     }
 
-    #about img{
-        display: none;
+    .about img {
+        width: 200px;
     }
 
     #projects {
@@ -652,15 +717,34 @@ button.curriculo:hover {
         font-size: 20px;
     }
 
+    button {
+        font-family: 'Russo One', sans-serif;
+        transition: all 300ms ease-in-out;
+        padding: 10px 25px;
+        border-radius: 100px;
+        font-size: 10px;
+        font-weight: 100;
+    }
+
+    button.curriculo {
+        width: 100px;
+        -webkit-filter: drop-shadow(5px 5px 5px #222);
+        filter: drop-shadow(5px 5px 5px #222);
+    
+        text-decoration: none;
+        color: #222;
+        background-color: #c6b9f6;
+        margin: 22px 10px 0 0;
+        margin-bottom: 30px;
+    }
+
     footer {
         flex-direction: column;
-        margin: 0 50px 20px 50px;
         padding: 20px 20px 0 20px;
         align-items: center;
     }
 
     footer img {
         width: 20px;
-        margin-left: 10px;
     }
 }
