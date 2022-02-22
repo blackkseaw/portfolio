@@ -44,6 +44,28 @@ body::-webkit-scrollbar-thumb {
     border-radius: 20px;
 }
 
+/* Container - Div do site todo */
+
+  .container {
+    top: 0%;
+    width: 100%;
+    background-color: #f5eef2;
+    color: #c6b9f6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Config de botão */
+
+button {
+    font-family: 'Russo One', sans-serif;
+    transition: all 300ms ease-in-out;
+    padding: 10px 25px;
+    border-radius: 100px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+/* Navbar */
 
 nav {
     z-index: 2;
@@ -81,6 +103,8 @@ nav {
     margin-right: 0;
 }
 
+/* Icon - Classe da logo na Navbar e o título */
+
 .icon {
     
     align-items: center;
@@ -102,6 +126,8 @@ nav {
     margin: 0 12px 0 0;
     z-index: -1000;
 }
+
+/* Content - sessão principal de fundo branco */
 
 .content {
     color: rgb(63, 63, 63);
@@ -138,6 +164,7 @@ nav {
     filter: drop-shadow(5px 5px 5px #222);
   }
 
+  /* Animação de escrita */
 
 .anim1 {
     letter-spacing: 7px;
@@ -154,6 +181,7 @@ nav {
     typing 2.5s steps(40, end),
     blink-caret .75s step-end 3 ;
 }
+
 
 
 @keyframes typing {
@@ -209,21 +237,12 @@ nav {
     50% { border-color: #665c92; }
   }
 
-.container {
-    top: 0%;
-    width: 100%;
-    background-color: #f5eef2;
-    color: #c6b9f6;
-    font-family: 'Montserrat', sans-serif;
-}
-
-
-
-
 div.body-content{
-    /** Altura do rodapé tem que ser igual a isso aqui e vice-versa **/
+    /** Altura do footer tem que ser igual a isso aqui e vice-versa **/
   padding-bottom: 80px;
   }
+
+  /* Footer - rodapé  */
 
   footer{
     padding: 15px;
@@ -255,6 +274,8 @@ footer h2 {
 footer img{
     height: 30px;
 }
+
+/* About - Sessão do tópico sobre */
 
 .about{
     background-color: #665c92;
@@ -316,14 +337,7 @@ footer img{
     width: 400px;
 }
 
-button {
-    font-family: 'Russo One', sans-serif;
-    transition: all 300ms ease-in-out;
-    padding: 10px 25px;
-    border-radius: 100px;
-    font-size: 16px;
-    font-weight: 100;
-}
+/* Config do botão "Currículo" da página sobre */
 
 button.curriculo {
     width: 150px;
@@ -333,7 +347,6 @@ button.curriculo {
     text-decoration: none;
     color: #222;
     background-color: #c6b9f6;
-    margin: 22px 10px 0 0;
     margin-bottom: 30px;
 }
 
@@ -341,6 +354,8 @@ button.curriculo:hover {
     background-color: #f5eef2;
     cursor: pointer;
 }
+
+/* Not-found - Div da página Wait  */
 
 .not-found{
     font-family: 'Russo One', sans-serif;
@@ -355,6 +370,14 @@ button.curriculo:hover {
     color: #3c365a;
 }
 
+
+.not-found img{
+    padding-top: 50px;
+  width: 300px;
+}
+
+/* Sumir - Teste de navbar */
+
 .sumir {
     display: none;
     padding: 0px;
@@ -367,12 +390,7 @@ button.curriculo:hover {
     justify-content: center;
 }
 
-.not-found img{
-    padding-top: 50px;
-  width: 300px;
-}
-
-
+/* Projects - Sessão de projetos  */
 
 .projects{
     height: 100vh;
@@ -403,6 +421,8 @@ button.curriculo:hover {
     font-family: 'Russo One', sans-serif;
 }
 
+
+
 .projects-main{
     display: flex;
     flex-direction: row;
@@ -412,6 +432,8 @@ button.curriculo:hover {
     gap: 40px;
 }
 
+/* Classes dos cards do Projects  */
+
 .projects-cards-container {
     display: flex;
     align-items: center;
@@ -420,7 +442,6 @@ button.curriculo:hover {
 
 .projects-cards {
     background-color: #211c30;
-    margin: 0 25px 36px 0;
     height: 168px;
     width: 360px;
     border-radius: 5px;
@@ -431,10 +452,15 @@ button.curriculo:hover {
     transition: all 500ms ease-in-out;
 }
 
+/* INICIO - Classes das imagens no card  */
+
 .img-git{
     display: flex;
     align-items: center;
     justify-content: center;
+
+    padding-top: 20px;
+    padding-top: 2px;
 
     gap: 20px;
 }
@@ -442,16 +468,17 @@ button.curriculo:hover {
 .projects-cards img {
     align-items: center;
     width: 30px;
-    
 }
+
+/* FIM - Classes das imagens no card  */
 
 .projects-cards:first-child {
     margin-left: 50px;
 }
-
+/* 
 .projects-cards:last-child {
     margin-right: 50px;
-}
+} */
 
 .projects-cards:hover {
     background-color: #161320;
@@ -461,6 +488,8 @@ button.curriculo:hover {
 .projects-cards h1 {
     font-size: 24px;
 }
+
+/* Classe do "botão" Mais sobre da aba de projetos  */
 
 .more {
     width: 120px;
@@ -481,375 +510,3 @@ button.curriculo:hover {
     justify-content: center;
 }
 
-@media only screen and (min-width: 1050px) and (max-width: 1169px) {
-    #about {
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-bottom: 120px;
-    }
-
-    .sumir {
-        display: none;
-        padding: 0px;
-    }
-
-    .not-found h1{
-        color: #3c365a;
-        font-size: 30px;
-    }
-
-    .content img {
-        margin-right: 120px;
-    }
-    
-}
-
-@media only screen and (min-width: 866px) and (max-width: 1050px) {
-    .content img {
-        width: 225px;
-        height: 225px;
-        border-radius: 100%;
-        margin-right: 100px;
-    }
-
-    .sumir {
-        display: none;
-        padding: 0px;
-    }
-
-    #not-found h1{
-        color: #3c365a;
-        font-size: 30px;
-    }
-
-    .side{
-        padding-right: 20px;
-        padding-left: 20px;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        gap: 100px;
-    }
-
-    .content-text {
-        margin: 100px 100px;
-    }
-
-    .content-text h1 {
-        font-size: 40px;
-    }
-
-    button {
-        padding: 10px 20px;
-    }
-
-    #about {
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-bottom: 120px;
-    }
-
-    #about p {
-        margin: 0 50px 0 50px;
-        text-align: center;
-    }
-
-    #about h1{
-        font-size: 30px;
-    }
-
-    #projects {
-        align-items: center;
-        justify-content: center;
-    }
-
-    .projects-cards-container {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .projects-cards {
-        background-color: #181425;
-        margin: 0 0 20px 0;
-        width: 90%;
-        text-align: start;
-    }
-
-    .projects-cards:first-child {
-        margin-left: 0px;
-    }
-    
-    .projects-cards:last-child {
-        margin-right: 0px;
-    }
-
-    .projects-cards h1 {
-        font-size: 20px;
-    }
-}
-
-@media only screen and (min-width: 780px) and (max-width: 865px) {
-    .content img {
-        width: 225px;
-        height: 225px;
-        border-radius: 100%;
-        margin-right: 80px;
-    }
-
-    .sumir {
-        display: contents;
-        padding: 0px;
-    }
-
-
-    #about h1{
-        font-size: 30px;
-    }
-
-    .not-found h1{
-        font-size: 30px;
-    }
-
-    .side{
-        padding-right: 20px;
-        padding-left: 20px;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        gap: 100px;
-    }
-    
-    .content-text {
-        margin: 100px 80px;
-    }
-
-    .content-text h1 {
-        font-size: 40px;
-    }
-
-    button {
-        padding: 10px 20px;
-    }
-
-    #about {
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-bottom: 120px;
-    }
-
-    #about p {
-        margin: 0 50px 0 50px;
-        text-align: center;
-    }
-
-    h1.subtitle {
-        text-align: center;
-        margin: 100px 0 20px 0;
-        font-size: 30px;
-    }
-
-    #projects {
-        
-        align-items: center;
-        justify-content: center;
-    }
-
-    .projects-cards-container {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .projects-cards {
-        background-color: #181425;
-        margin: 0 0 20px 0;
-        width: 90%;
-        text-align: start;
-    }
-
-    .projects-cards:first-child {
-        margin-left: 0px;
-    }
-    
-    .projects-cards:last-child {
-        margin-right: 0px;
-    }
-
-    .projects-cards h1 {
-        font-size: 20px;
-    }
-}
-
-
-@media only screen and (min-width: 240px) and (max-width: 779px) {
-    nav {
-        display: none;
-        padding: 0px;
-    }
-
-    .sumir {
-        display: contents;
-        padding: 0px;
-    }
-
-    #about h1{
-        font-size: 30px;
-    }
-
-    .not-found {
-        display: flex;
-        
-        align-items: center;
-        justify-content: center;
-        justify-self: center;
-        align-self: center;
-    }
-
-    .not-found h1{
-        font-size: 20px;
-    }
-
-    .not-found img{
-
-        width: 200px;
-        align-items: center;
-        justify-content: center;
-        justify-self: center;
-        align-self: center;
-    }
-
-    .side{
-        padding-right: 20px;
-        padding-left: 20px;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        gap: 100px;
-    }
-
-    .content {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        margin: 0;
-    }
-
-    .content img {
-        width: 200px;
-        align-items: center;
-        justify-content: center;
-        justify-self: center;
-        align-self: center;
-    }
-
-    .content-text {
-        align-items: center;
-        justify-content: center;
-    }
-
-    .content-text h1 {
-        font-size: 30px;
-    }
-
-    #about {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    #about p {
-        text-align: center;
-    }
-
-    .about img {
-        width: 200px;
-    }
-
-    #projects {
-        align-items: center;
-        justify-content: center;
-        padding-bottom: 50px;
-    }
-
-    .projects-cards-container {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .projects-cards {
-        background-color: #181425;
-        margin: 0 0 20px 0;
-        width: 90%;
-        text-align: start;
-    }
-
-    .projects-cards:first-child {
-        margin-left: 0px;
-    }
-    
-    .projects-cards:last-child {
-        margin-right: 0px;
-    }
-
-    #habilities {
-        align-items: center;
-        justify-content: center;
-    }
-
-    .habilities-cards-container {
-        flex-direction: column;
-        margin-bottom: 50px;
-    }
-
-    .habilities-cards {
-        display: flex;
-        background-color: #181425;
-        margin: 0 0 20px 0;
-        width: 50%;
-    }
-
-    .habilities-cards:first-child {
-        margin-left: 0px;
-    }
-    
-    .habilities-cards:last-child {
-        margin-right: 0px;
-    }
-
-    .habilities-cards h1 {
-        font-size: 20px;
-    }
-
-    button {
-        font-family: 'Russo One', sans-serif;
-        transition: all 300ms ease-in-out;
-        padding: 10px 25px;
-        border-radius: 100px;
-        font-size: 10px;
-        font-weight: 100;
-    }
-
-    button.curriculo {
-        width: 100px;
-        -webkit-filter: drop-shadow(5px 5px 5px #222);
-        filter: drop-shadow(5px 5px 5px #222);
-    
-        text-decoration: none;
-        color: #222;
-        background-color: #c6b9f6;
-        margin: 22px 10px 0 0;
-        margin-bottom: 30px;
-    }
-
-    footer {
-        flex-direction: column;
-        padding: 20px 20px 0 20px;
-        align-items: center;
-    }
-
-    footer img {
-        width: 20px;
-    }
-}
