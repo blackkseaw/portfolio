@@ -11,8 +11,7 @@
     scroll-behavior: smooth;
 
     /* font-family: 'Russo One', sans-serif; */
-    /* font-family: 'Montserrat', sans-serif;
-    font-family: 'Russo One', sans-serif; */
+    /* font-family: 'Montserrat', sans-serif;*/
 }
 
 /* 
@@ -278,7 +277,7 @@ footer img{
 /* About - Sessão do tópico sobre */
 
 .about{
-    background-color: #665c92;
+    background-color: #968BC4;
     color: rgb(245, 245, 245);
     
     display: flex;
@@ -298,6 +297,7 @@ footer img{
     font-size: 60px;
     font-weight: 100;
     font-family: 'Russo One', sans-serif;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .about h2 {
@@ -358,16 +358,21 @@ button.curriculo:hover {
 /* Not-found - Div da página Wait  */
 
 .not-found{
-    font-family: 'Russo One', sans-serif;
-    font-weight: lighter;
-    height: 550px;
+    height: 100vh;
     padding: 50px;
     background-color: #968bc4;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #3c365a;
+    color: rgba(255, 255, 255, 0.867);
+}
+
+.not-found h1{
+    font-family: 'Russo One', sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 
@@ -419,6 +424,7 @@ button.curriculo:hover {
     font-size: 60px;
     font-weight: 100;
     font-family: 'Russo One', sans-serif;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 
@@ -436,8 +442,10 @@ button.curriculo:hover {
 
 .projects-cards-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 20px;
 }
 
 .projects-cards {
@@ -471,14 +479,6 @@ button.curriculo:hover {
 }
 
 /* FIM - Classes das imagens no card  */
-
-.projects-cards:first-child {
-    margin-left: 50px;
-}
-/* 
-.projects-cards:last-child {
-    margin-right: 50px;
-} */
 
 .projects-cards:hover {
     background-color: #161320;

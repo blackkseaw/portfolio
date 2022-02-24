@@ -13,7 +13,7 @@
     }
 
     .not-found h1{
-        color: #3c365a;
+        font-weight: lighter;
         font-size: 30px;
     }
 
@@ -36,8 +36,8 @@
         padding: 0px;
     }
 
-    #not-found h1{
-        color: #3c365a;
+    .not-found h1{
+        font-weight: lighter;
         font-size: 30px;
     }
 
@@ -58,24 +58,21 @@
         font-size: 40px;
     }
 
-    button {
-    }
-
-    #about {
+    .about {
         padding-left: 60px;
         padding-right: 60px;
     }
 
-    #about p {
+    .about p {
         margin: 0 50px 0 50px;
         text-align: center;
     }
 
-    #about h1{
+    .about h1{
         font-size: 60px;
     }
 
-    #projects {
+    .projects {
         align-items: center;
         justify-content: center;
     }
@@ -120,6 +117,7 @@
     }
 
     .not-found h1{
+        font-weight: lighter;
         font-size: 30px;
     }
 
@@ -236,7 +234,7 @@
         padding: 0px;
     }
 
-    #about h1{
+    .about h1{
         font-size: 30px;
     }
 
@@ -254,6 +252,7 @@
     }
 
     .not-found h1{
+        font-weight: lighter;
         font-size: 20px;
     }
 
