@@ -1,15 +1,10 @@
 /* RESPONSIVIDADE  */
 
 @media only screen and (min-width: 1050px) and (max-width: 1169px) {
-    #about {
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-bottom: 120px;
-    }
-
-    .sumir {
-        display: none;
-        padding: 0px;
+    .about {
+        padding-left: 60px;
+        padding-right: 60px;
+        height: 100vh;
     }
 
     .not-found h1{
@@ -29,11 +24,6 @@
         height: 225px;
         border-radius: 100%;
         margin-right: 100px;
-    }
-
-    .sumir {
-        display: none;
-        padding: 0px;
     }
 
     .not-found h1{
@@ -61,6 +51,7 @@
     .about {
         padding-left: 60px;
         padding-right: 60px;
+        height: 100vh;
     }
 
     .about p {
@@ -225,8 +216,20 @@
 
 @media only screen and (min-width: 240px) and (max-width: 779px) {
     nav {
+        padding: 20px 80px;
+    }
+
+    .nav-links {
         display: none;
         padding: 0px;
+    }
+
+    .icon img{
+        width: 20px;
+    }
+
+    .icon h1 {
+        font-size: 15px;
     }
 
     .sumir {
@@ -235,7 +238,7 @@
     }
 
     .about h1{
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .about h2 {
@@ -313,7 +316,7 @@
     }
 
     .projects{
-        height: 100vh;
+        height: 100%;
         background-color: #7e73ab;
         color: rgb(245, 245, 245);
         
@@ -327,6 +330,8 @@
             
         padding-left: 20px;
         padding-right: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
         ;
     }
 
