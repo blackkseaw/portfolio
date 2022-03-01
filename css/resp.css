@@ -132,17 +132,17 @@
     button {
     }
 
-    #about {
+    .about {
         padding-left: 60px;
         padding-right: 60px;
     }
 
-    #about p {
+    .about p {
         margin: 0 50px 0 50px;
         text-align: center;
     }
 
-    #about h1{
+    .about h1{
         font-size: 40px;
     }
 
@@ -153,7 +153,7 @@
     }
 
     .projects{
-        height: 100vh;
+        height: 100%;
         background-color: #7e73ab;
         color: rgb(245, 245, 245);
         
@@ -167,6 +167,8 @@
             
         padding-left: 20px;
         padding-right: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
         ;
     }
 

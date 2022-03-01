@@ -21,5 +21,6 @@ Site desenvolvido em fevereiro de 2022 com o intuíto de fixar conhecimento e re
 
 ## <img src="https://cdn-icons-png.flaticon.com/512/1752/1752919.png" width="40px;"> Links 
 - Design do projeto no Figma: [Link](https://www.figma.com/file/sqvwx6urSswtoLoJ4CyIXk/Portf%C3%B3lio-2022?node-id=1%3A2 "Link")
+- Design do projeto no Canva: [Link](https://www.canva.com/design/DAE4pmuhZ38/eAWxl5QDhsiG9rRUviKtfw/view?website#2:portf-lio-laura "Link")
 - Site: [Link](https://lauraferrari.netlify.app/ "Link")
 

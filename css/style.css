@@ -15,6 +15,7 @@
 }
 
 /* 
+ { #7530cd };
  { #252422 };
  { #665c92 };
  { #7e73ab };
@@ -23,10 +24,22 @@
  { #c6b9f6 }; 
  { #f5eef2 };*/
 
+ :root{
+    --dark: #252422;
+    --purple7: #7530cd;
+    --purple6: #665c92;
+    --purple5: #7e73ab;
+    --purple4: #968bc4;
+    --purple3: #aea2dd;
+    --purple2: #c6b9f6;
+    --purple1: #f5eef2;
+    --white: #fff;
+ }
+
 
 body {
     
-    background-color: #665c92;
+    background-color: var(--purple6);
 }
 
 body::-webkit-scrollbar {
@@ -39,17 +52,24 @@ body::-webkit-scrollbar-track {
 }
   
 body::-webkit-scrollbar-thumb {
-    background-color: #665c92;
+    background-color: var(--purple6);
     border-radius: 20px;
 }
+
+.header p {
+    margin: 0 auto;
+    line-height: 2;
+    color: var(--grayishBlue);
+}
+
 
 /* Container - Div do site todo */
 
   .container {
     top: 0%;
     width: 100%;
-    background-color: #f5eef2;
-    color: #c6b9f6;
+    background-color: var(--purple1);
+    color: var(--purple2);
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -68,7 +88,7 @@ button {
 
 nav {
     z-index: 2;
-    background-color: #f5eef2;
+    background-color: var(--purple1);
     position: fixed;
     display: flex;
     justify-content: space-between;
@@ -103,7 +123,7 @@ nav {
 }
 
 .nav-links a:hover {
-    color: #665c92;
+    color: var(--purple6);
 }
 
 .nav-links a:last-child {
@@ -125,7 +145,7 @@ nav {
 }
 
 .icon a:hover {
-    color: #665c92;
+    color: var(--purple6);
 }
 
 .icon img {
@@ -198,7 +218,7 @@ nav {
   /* The typewriter cursor effect */
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: #665c92; }
+    50% { border-color: var(--purple6); }
   }
 
   .anim2 {
@@ -240,7 +260,7 @@ nav {
   /* The typewriter cursor effect */
   @keyframes blink-caret2 {
     from, to { border-color: transparent }
-    50% { border-color: #665c92; }
+    50% { border-color: var(--purple6); }
   }
 
 div.body-content{
@@ -256,10 +276,11 @@ div.body-content{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: #f5eef2;
+    background: var(--purple1);
     width: 100%;
     bottom: 0;
     left: 0;
+    gap: 5px;
   }
 
   .social-medias{
@@ -274,7 +295,7 @@ div.body-content{
 footer h2 {
     font-size: 14px;
     font-weight: 600;
-    color: #665c92;
+    color: var(--purple6);
 }
 
 footer img{
@@ -284,7 +305,7 @@ footer img{
 /* About - Sessão do tópico sobre */
 
 .about{
-    background-color: #968BC4;
+    background-color: var(--purple4);
     color: rgb(245, 245, 245);
     
     display: flex;
@@ -353,12 +374,12 @@ button.curriculo {
 
     text-decoration: none;
     color: #222;
-    background-color: #c6b9f6;
+    background-color: var(--purple2);
     margin-bottom: 30px;
 }
 
 button.curriculo:hover {
-    background-color: #f5eef2;
+    background-color: var(--purple1);
     cursor: pointer;
 }
 
@@ -367,7 +388,7 @@ button.curriculo:hover {
 .not-found{
     height: 100vh;
     padding: 50px;
-    background-color: #968bc4;
+    background-color: var(--purple4);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -405,8 +426,7 @@ button.curriculo:hover {
 /* Projects - Sessão de projetos  */
 
 .projects{
-    height: 100vh;
-    background-color: #7e73ab;
+    background-color: var(--purple5);
     color: rgb(245, 245, 245);
     
         
@@ -420,6 +440,8 @@ button.curriculo:hover {
         
     padding-left: 128px;
     padding-right: 128px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     ;
 }
 
@@ -504,7 +526,7 @@ button.curriculo:hover {
 
     text-decoration: none;
     color: #222;
-    background-color: #c6b9f6;
+    background-color: var(--purple2);
 
     font-family: 'Russo One', sans-serif;
     transition: all 300ms ease-in-out;
@@ -515,5 +537,48 @@ button.curriculo:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Skills - Sessão de habilidades */
+
+.skills{
+    height: 100vh;
+    background-color: var(--purple6);
+    color: rgb(245, 245, 245);
+    
+        
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+        
+    width: 100%;
+    gap: 40px;
+        
+    padding-left: 128px;
+    padding-right: 128px;
+    ;
+}
+
+.skills img {
+    width: 400px;
+}
+
+.skills h1 {
+    font-size: 60px;
+    font-weight: 100;
+    font-family: 'Russo One', sans-serif;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+
+.skills-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 40px;
 }
 
