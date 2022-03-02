@@ -434,7 +434,8 @@ button.curriculo:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-        
+    
+    height: 100vh;
     width: 100%;
     gap: 40px;
         
@@ -470,10 +471,8 @@ button.curriculo:hover {
 /* Classes dos cards do Projects  */
 
 .projects-cards-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
 }
 
@@ -570,8 +569,6 @@ button.curriculo:hover {
     font-family: 'Russo One', sans-serif;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-
-
 
 .skills-main{
     display: flex;
