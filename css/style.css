@@ -610,6 +610,13 @@ button.curriculo:hover {
 
 /* Skills Cards */
 
+.skills-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
 .flip-card {
     background-color: transparent;
     width: 110px;
@@ -643,12 +650,14 @@ button.curriculo:hover {
   }
   
   .flip-card-front {
+    border-top: var(--purple8) 13px solid;
     border-radius: 10px;
     background-color: #f5f5f5;
     color: black;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 5px;
   }
 
   .flip-card-front img{
@@ -662,7 +671,7 @@ button.curriculo:hover {
   .flip-card-back {
     border-radius: 10px;
     background-color: var(--purple8);
-    color: white;
+    color: var(--purple1);
     transform: rotateY(180deg);
     
     display: flex;
@@ -671,6 +680,7 @@ button.curriculo:hover {
     flex-direction: column;
 
     padding: 6px;
+    gap: 5px;
   }
 
   .flip-card-back h2{

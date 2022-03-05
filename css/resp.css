@@ -115,6 +115,14 @@
         padding-top: 40px;
         padding-bottom: 40px;
     }
+
+    .skills-cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        padding-bottom: 30px;
+    }
+
 }
 
 @media screen and (max-width: 865px) {
@@ -508,5 +516,18 @@
 
     footer img {
         width: 20px;
+    }
+}
+
+@media screen and (max-width: 305px) {
+    .skills-cards{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding-bottom: 30px;
+    }
+    .animacao{
+        width: auto;
+        margin-left: 0px;
     }
 }
