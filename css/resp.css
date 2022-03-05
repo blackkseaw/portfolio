@@ -42,9 +42,6 @@
         height: 100%;
     }
 
-    .about p {
-        margin: 0 50px 0 50px;
-    }
 
     .about h1{
         font-size: 60px;
@@ -162,10 +159,6 @@
     .about {
         padding-left: 60px;
         padding-right: 60px;
-    }
-
-    .about p {
-        margin: 0 50px 0 50px;
     }
 
     .about h1{
@@ -508,14 +501,12 @@
         margin-bottom: 30px;
     }
 
-    footer {
-        flex-direction: column;
-        padding: 20px 20px 0 20px;
-        align-items: center;
-    }
-
     footer img {
         width: 20px;
+    }
+
+    .up2{
+        gap: 20px;
     }
 }
 
@@ -530,4 +521,8 @@
         width: auto;
         margin-left: 0px;
     }
+    .social-medias{
+        gap: 15px;
+      }
+
 }

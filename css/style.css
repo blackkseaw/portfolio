@@ -317,6 +317,7 @@ footer h2 {
     font-size: 14px;
     font-weight: 600;
     color: var(--purple6);
+    text-align: center;
 }
 
 footer img{
@@ -583,6 +584,17 @@ button.curriculo:hover {
     padding-right: 128px;
     padding-top: 30px;
     ;
+}
+
+.skills-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-title p{
+    font-family: 'Montserrat', sans-serif;
 }
 
 .skills img {
