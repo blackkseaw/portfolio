@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/resp.css">
     <link rel="stylesheet" href="css/card.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 
@@ -17,7 +18,7 @@
 <body>
     <div class="container">
         <div class="navbar">
-            <nav>
+            <nav data-aos="fade-up" data-aos-anchor-placement="bottom-center" data-aos-delay="350" data-aos-offset="0">
                 <div class="icon">
                     <img src="assets/brach.svg" alt="">
                     <h1><a href="#main">Laura | Portfólio</a></h1>
@@ -40,107 +41,162 @@
 
         <!-- Sessão principal -->
 
-        <div id="main" class="content">
-            <div class="content-text">
-                <h1 class="anim1">Laura</h1>
-                <h1 class="anim2">Ferrari</h1>
+        <section id="main" class="content">
+            <div class="animacao">
+                <div class="content-text">
+                    <h1 class="anim1">Laura</h1>
+                    <h1 class="anim2">Ferrari</h1>
+                </div>
             </div>
-            <img class="shadow-img" src="assets/mainpic.svg" alt="">
-        </div>
+            <div class="div-shadow">
+                <img class="shadow-img" src="assets/mainpic.svg" alt="">
+            </div>
+        </section>
 
         <!-- Sessão "Sobre" -->
 
-        <div id="about" class="about">
-            <h1>Sobre</h1>
-            <div class="side">
+        <section id="about" class="about">
+            <h1 class="sobre-h1" data-aos="fade-up" data-aos-delay="100" data-aos-offset="0">Sobre</h1>
+            <div class="side" data-aos="fade-up" data-aos-delay="100" data-aos-offset="0">
                 <div class="up">
-                    <h2>Quem sou eu</h1>
-                        <p>Me chamo <strong>Laura Ferrari</strong>.
-                            Gosto de programação front-end e tenho interesse em aprender mais sobre design UI/UX e
-                            programação mobile.
-                            <br>
-                            <br>
-                            Tenho formação técnina em <strong>Desenvolvimento de Sistemas</strong> e estou iniciando um
-                            tecnólogo em <strong>Análise e Desenvolvimento
-                                de Sistemas</strong> no SENAI - Florianópolis e uma faculdade de <strong>Design
-                                Gráfico</strong> na UDESC.
-                        </p>
+                    <h2>Quem sou eu</h2>
+                    <p>Me chamo <strong>Laura Ferrari</strong>.
+                        Gosto de programação front-end e tenho interesse em aprender mais sobre design UI/UX e
+                        programação mobile.
+                        <br>
+                        <br>
+                        Tenho formação técnina em <strong>Desenvolvimento de Sistemas</strong> e estou iniciando um
+                        tecnólogo em <strong>Análise e Desenvolvimento
+                            de Sistemas</strong> no SENAI - Florianópolis e uma faculdade de <strong>Design
+                            Gráfico</strong> na UDESC.
+                    </p>
                 </div>
                 <div class="up2">
                     <img src="assets/reading_time.svg" alt="">
-                    <a href="https://drive.google.com/file/d/1x0YCYd0mmOuNBneOISv-yUx2QpzUx1CP/view?usp=sharing"><button
-                            class="curriculo">Currículo</button></a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Sessão de projetos -->
-
-        <section id="projects" class="projects">
-            <h1>Projetos</h1>
-            <div class="projects-main">
-                <img src="assets/dev_focus.svg" alt="">
-                <div class="projects-cards-container">
-                    <div class="projects-cards">
-                        <h1>Sam</h1>
-                        <p>Aplicativo de auxílio educacional para crianças com TEA (Transtorno do Aspectro Autista)
-                            desenvolvido pela 5P</p>
-                        <div class="img-git">
-                            <a class="more" href="https://github.com/blackkseaw/SA_Android">Mais sobre</a>
-                        </div>
-                    </div>
-                    <div class="projects-cards">
-                        <h1>To do list</h1>
-                        <p>Site customizável de organização de tarefas</p>
-                        <div class="img-git">
-                            <a class="more" href="https://www.figma.com/file/McBI60o5EQVWCEkRnbvYGE/To-do-List?node-id=0%3A1">Mais sobre</a>
-                        </div>
-                    </div>
-                    <div class="projects-cards">
-                        <h1>Card</h1>
-                        <p>Site de estudo de card com animação 3d</p>
-                        <div class="img-git">
-                            <a class="more" href="https://github.com/blackkseaw/Card">Mais sobre</a>
-                        </div>
-                    </div>
-                    
+                    <a href="https://drive.google.com/file/d/1x0YCYd0mmOuNBneOISv-yUx2QpzUx1CP/view?usp=sharing"
+                        target="_blank" rel="noopener noreferrer"><button class="curriculo">Currículo</button></a>
                 </div>
             </div>
         </section>
 
-        <div id="skills" class="skills">
-            <h1>Habilidades</h1>
-            <div class="skills-main">
-            <div class="box purple">
-                <h2>Team Builder</h2>
-                <p>Scans our talent network to create the optimal team for your project</p>
-                <img src="https://assets.codepen.io/2301174/icon-team-builder.svg" alt="">
-            </div>
+        <!-- Sessão de projetos -->
 
-            <div class="box purple">
-                <h2>Team Builder</h2>
-                <p>Scans our talent network to create the optimal team for your project</p>
-                <img src="https://assets.codepen.io/2301174/icon-team-builder.svg" alt="">
+        <section id="projects" class="projects">
+            <h1 data-aos="fade-up" data-aos-delay="100" data-aos-offset="0">Projetos</h1>
+            <div class="projects-main">
+                <img src="assets/dev_focus.svg" alt="" data-aos="fade-up" data-aos-delay="100" data-aos-offset="0">
+                <div class="projects-cards-container">
+                    <div class="projects-cards" data-aos="fade-up" data-aos-delay="100" data-aos-offset="0">
+                        <h2>Sam</h2>
+                        <p>Aplicativo de auxílio educacional para crianças com TEA (Transtorno do Aspectro Autista)
+                            desenvolvido pela 5P</p>
+                        <div class="img-git">
+                            <a class="more" href="https://github.com/blackkseaw/SA_Android" target="_blank"
+                                rel="noopener noreferrer">Mais sobre</a>
+                        </div>
+                    </div>
+                    <div class="projects-cards" data-aos="fade-up" data-aos-delay="100" data-aos-offset="0">
+                        <h2>To do list</h2>
+                        <p>Site customizável de organização de tarefas</p>
+                        <div class="img-git">
+                            <a class="more"
+                                href="https://www.figma.com/file/McBI60o5EQVWCEkRnbvYGE/To-do-List?node-id=0%3A1"
+                                target="_blank" rel="noopener noreferrer">Mais
+                                sobre</a>
+                        </div>
+                    </div>
+                    <div class="projects-cards" data-aos="fade-up" data-aos-delay="100" data-aos-offset="0">
+                        <h2>Card</h2>
+                        <p>Site de estudo de card com animação 3d</p>
+                        <div class="img-git">
+                            <a class="more" href="https://github.com/blackkseaw/Card" target="_blank"
+                                rel="noopener noreferrer">Mais sobre</a>
+                        </div>
+                    </div>
+
+                </div>
             </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h1 /*data-aos="fade-up" //data-aos-delay="100" //data-aos-offset="0">Habilidades</h1>
+            <div class="skills-main" //data-aos="fade-up" //data-aos-delay="100" //data-aos-offset="0">
+           
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="assets/icon/css.svg">                      </div>
+                      <div class="flip-card-back">
+                        <h2>CSS3</h2>
+                        <p>Mecanismo para adicionar estilo a um documento web</p>
+                      </div>
+                    </div>
+                  </div>
+                <!-- <div class="box purple">
+                    <h2>Team Builder</h2>
+                    <p>Scans our talent network to create the optimal team for your project</p>
+                </div> -->
+
+                <!-- <div class="box purple" data-aos="fade-up" data-aos-delay="100" data-aos-offset="0">
+                    <h2>Team Builder</h2>
+                    <p>Scans our talent network to create the optimal team for your project</p>
+                </div>
+
+                <div class="box purple" data-aos="fade-up" data-aos-delay="100" data-aos-offset="0">
+                    <h2>Team Builder</h2>
+                    <p>Scans our talent network to create the optimal team for your project</p>
+                </div>
+
+                <div class="box purple" data-aos="fade-up" data-aos-delay="100" data-aos-offset="0">
+                    <h2>Team Builder</h2>
+                    <p>Scans our talent network to create the optimal team for your project</p>
+                </div>
+
+                <div class="box purple" data-aos="fade-up" data-aos-delay="100" data-aos-offset="0">
+                    <h2>Team Builder</h2>
+                    <p>Scans our talent network to create the optimal team for your project</p>
+                </div>
+
+                <div class="box purple" data-aos="fade-up" data-aos-delay="100" data-aos-offset="0">
+                    <h2>Team Builder</h2>
+                    <p>Scans our talent network to create the optimal team for your project</p>
+                </div>
+                <div class="box purple" data-aos="fade-up" data-aos-delay="500" data-aos-offset="0">
+                    <h2>Team Builder</h2>
+                    <p>Scans our talent network to create the optimal team for your project</p>
+                </div> -->
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+        <div class="social-medias">
+            <a href="https://www.linkedin.com/in/laura-ferrari-6a25b220b/">
+                <img src="assets/linkedin-logo.svg" alt="linkedin">
+            </a>
+            <a href="http://gg.gg/github-lf">
+                <img src="assets/github_dark.svg" alt="github">
+            </a>
+            <a href="behance.net/blacksea99">
+                <img src="assets/behance.svg" alt="behance">
+            </a>
         </div>
-        </div>
+        <h2>Desenvolvido por Laura Ferrari @ 2022 | <a href="https://github.com/blackkseaw/portfolio" target="_blank"
+                rel="noopener noreferrer">Repositório</a>
+        </h2>
+    </footer>
 
-        <!-- Footer -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 
-        <footer>
-            <div class="social-medias">
-                <a href="https://www.linkedin.com/in/laura-ferrari-6a25b220b/">
-                    <img src="assets/linkedin-logo.svg" alt="linkedin">
-                </a>
-                <a href="http://gg.gg/github-lf">
-                    <img src="assets/github_dark.svg" alt="github">
-                </a>
-                <a href="behance.net/blacksea99">
-                    <img src="assets/behance.svg" alt="behance">
-                </a>
-            </div>
-            <h2>Desenvolvido por Laura Ferrari @ 2022 | <a href="https://github.com/blackkseaw/portfolio">Repositório</a></h2>
-        </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"
+        integrity="sha512-2fk3Q4NXPYAqIha0glLZ2nluueK43aNoxvijPf53+DgL7UW9mkN+uXc1aEmnZdkkZVvtJZltpRt+JqTWc3TS3Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/ScrollTrigger.min.js"
+        integrity="sha512-jNJOCd1PIjJoUa1XTDKaPdBLNUe4OJTrltKG+70O5ghYZ943nTRGIzjObwC2JtSm1fG7T06GbUApR2eirIU/jA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 
 </html>

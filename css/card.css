@@ -10,29 +10,21 @@
     padding-bottom: 10px;
 }
 
-@media (max-width: 400px) {
-}
-
-
 .box p {
-    color: #211c30;
+    color: #fff;
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
 }
 
 .box h2{
-    color: #211c30;
+    color: #c6b9f6;
 }
 
 .box {
     border-radius: 5px;
     box-shadow: 0px 30px 40px -20px rgb(29, 29, 29);
     padding: 30px;
-    margin: 20px;  
-    background-color: #968BC4;
+    width: 200px;
+    background-color: #211c30;
 }
 
 img {
@@ -45,40 +37,12 @@ img {
     }
 }
 
-@media (max-width: 950px) and (min-width: 450px) {
+@media (max-width: 1100px) and (min-width: 450px) {
     .box {
-        text-align: center;
         height: 180px;
     }
 }
 
 .purple {
     border-top: 3px solid var(--white);
-}
-
-
-@media (min-width: 950px) {
-    .row1-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .row2-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .box-down {
-        position: relative;
-        top: 150px;
-    }
-    .box {
-        width: 20%;
-     
-    }
-    .header p {
-        width: 30%;
-    }
-    
 }
